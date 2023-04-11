@@ -42,14 +42,14 @@
   align-items: center;
 }
 
-#singBox {
+#signBox {
   margin: 20px;
 }
-#singBox a {
+#signBox a {
   margin-left: 20px;
   transition: 0.3s;
 }
-#singBox a:hover {
+#signBox a:hover {
   font-weight: bold;
   text-decoration: underline;
   text-underline-offset: 5px;
