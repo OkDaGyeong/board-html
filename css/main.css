@@ -8,6 +8,7 @@
   max-width: 1200px;
   margin: 0 auto;
   height: 100%;
+  padding: 50px;
   /* border: 1px solid #ccc; */
 }
 .container table {
@@ -60,6 +61,7 @@
   /* border: 1px solid #ccc; */
   margin-bottom: 10px;
   height: 60px;
+  /* min-width: 460px; */
 }
 select {
   border: none;
@@ -124,20 +126,21 @@ input[type="search"]:focus {
 /* 테이블 */
 .tableBox {
   min-height: 500px;
+  /* min-width: 460px; */
   /* border: 2px solid #ccc;/ */
 }
-.table-style {
+/* .table-style {
   width: 100%;
-  /*border-spacing: separate;
+  border-spacing: separate;
   border-collapse: separate;
-  border-spacing: 0;*/
+  border-spacing: 0;
   border-width: 2px;
   border-style: solid;
   border-color: #000;
-}
+} */
 .table-header {
   height: 50px;
-  border-bottom: 2px solid var(--darkgrey);
+  /* border-bottom: 2px solid var(--darkgrey); */
 }
 
 table {

@@ -26,6 +26,7 @@ body {
   font-family: "S-CoreDream-3Light";
   width: 100%;
   background-color: #f9f8f6;
+  /* height: 100vh; */
 }
 
 * {
@@ -49,8 +50,13 @@ input {
   -webkit-appearance: none; /* form 요소의 디바이스 기반 스타일 초기화 */
   border: 0;
   font-size: 16px;
+  font-family: "S-CoreDream-3Light";
 }
-
+button,
+select,
+option {
+  font-family: "S-CoreDream-3Light";
+}
 input[type="button" i] {
   background-color: rgba(0, 0, 0, 0);
 }
